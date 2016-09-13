@@ -15,7 +15,8 @@
     "tests"
   ],
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "circliful": "^1.0.2"
   },
   "dependencies": {
     "animate.css": "^3.5.2",
