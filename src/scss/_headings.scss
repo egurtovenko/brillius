@@ -1,11 +1,42 @@
 .header {
 	padding: 20px 0;
 	margin-bottom: 30px;
+	overflow: hidden;
 	&-title {
 		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 		margin-bottom: 30px;
 		margin: 0;
 		padding-bottom: 20px;
+		> h1 {
+			position: relative;
+			display: inline-block;
+			padding: 0 20px;
+			&:before,
+			&:after {
+				content: '';
+  				position: absolute;
+  				top: 50%;
+  				transform: translateY(-50%);
+  				width: 999px;
+  				height: 11px;
+  				border: solid rgba(255, 255, 255, 0.4);
+  				border-width: 4px 0;
+			}
+			&:before {
+				right: 100%;
+			}
+			&:after {
+				left: 100%;
+			}
+		}
+		&-main {
+			> h1 {
+				&:before,
+				&:after {
+					display: none;
+				}
+			}
+		}
 	}
 	&-sub-title {
 		font-size: 22px;
