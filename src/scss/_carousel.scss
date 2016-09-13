@@ -1,0 +1,12 @@
+.carousel {
+	.flex-container {
+		display: flex;
+		align-items: flex-end;
+	}
+	.carousel-control.left {
+		background-image: none;
+	}
+	.carousel-control.right {
+		background-image: none;
+	}
+}

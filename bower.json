@@ -1,0 +1,24 @@
+{
+  "name": "Brillius",
+  "description": "start html\\css template",
+  "main": "index.js",
+  "authors": [
+    "egurtovenko <gurtovenko030984@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/egurtovenko/Brillius",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "wow": "wowjs#^1.1.2"
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Coustard|Oxygen" rel="stylesheet">
+	<link rel="stylesheet" href="../build/css/all.css">
+</head>
+<body>
+	<div class="block block-blue">
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+					</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">home</a></li>
+							<li><a href="#">about</a></li>
+							<li><a href="#">team</a></li>
+							<li><a href="#">portfolio</a></li>
+							<li><a href="#">blog</a></li>
+							<li><a href="#">shortcodes</a></li>
+							<li><a href="#">contact</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+			<div class="header text-center">
+				<div class="header-title">
+					<h1>Creative Minds at Work</h1>
+				</div>
+				<strong class="header-sub-title">We're a team of developers who are passionate about our work</strong>
+			</div>
+			<div id="carousel-id" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="row flex-container">
+							<div class="col-md-4">
+								<img src="img/bubble-left.png" alt="" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="3s">
+							</div>
+							<div class="col-md-4 text-center">
+								<img src="img/bubble-center.png" alt="" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+							</div>
+							<div class="col-md-4 text-right">
+								<img src="img/bubble-right.png" alt="" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="5s">
+							</div>
+						</div>
+						<div class="row flex-container">
+							<div class="col-md-4 text-right">
+								<img src="img/man-left.png" alt="" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
+							</div>
+							<div class="col-md-4 text-center">
+								<img src="img/woman.png" alt="" class="wow fadeInUp" data-wow-duration="1s">
+							</div>
+							<div class="col-md-4 text-left">
+								<img src="img/man-right.png" alt="" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="4s">
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="row flex-container">
+							<div class="col-md-4">
+								<img src="img/bubble-left2.png" alt="" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="3s">
+							</div>
+							<div class="col-md-4 text-center">
+								<img src="img/bubble-center2.png" alt="" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
+							</div>
+							<div class="col-md-4 text-right">
+								<img src="img/bubble-right2.png" alt="" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="5s">
+							</div>
+						</div>
+						<div class="row flex-container">
+							<div class="col-md-4 text-right">
+								<img src="img/woman.png" alt="" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
+							</div>
+							<div class="col-md-4 text-center">
+								<img src="img/man-right.png" alt="" class="wow fadeInUp" data-wow-duration="1s">
+							</div>
+							<div class="col-md-4 text-left">
+								<img src="img/man-left.png" alt="" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="4s">
+							</div>
+						</div>
+					</div>
+				<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="block block-tomato">
+	<div class="container">
+		<div class="header text-center">
+			<div class="header-title">
+				<h1>Our Amazing Skills</h1>
+			</div>
+			<strong class="header-sub-title">Here is what we love and do best</strong>
+		</div>
+	</div>
+</div>	
+<script src="../build/js/jquery.min.js"></script>
+<script src="../build/js/bootstrap.min.js"></script>
+<script src="../build/js/wow.min.js"></script>
+<script>
+ new WOW().init();
+ $('.carousel').carousel({
+  interval: false
+})
+</script>
+</body>
+</html>

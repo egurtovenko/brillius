@@ -1,0 +1,26 @@
+.block {
+	padding: 70px 0;
+	&-blue {
+		background-color: #2f87cb;
+		padding-bottom: 0;
+	}
+	&-tomato {
+		background-color: #ff6347;
+		padding-top: 50px;
+	}
+	&-green {
+		background-color: #72af3c;
+	}
+	&-yellow {
+		background-color: #cc9031;
+	}
+	&-lightblue {
+		background-color: #37a3c7;
+	}
+	&-lightgreen {
+		background-color: #45b591;
+	}
+	&-gold {
+		background-color: #c6a739;
+	}
+}
