@@ -106,18 +106,28 @@
 			</div>
 			<strong class="header-sub-title">Here is what we love and do best</strong>
 		</div>
-		<div class="row">
+		<div class="row skills">
 			<div class="col-md-3">
-				<div id="web"></div>
+				<div class="skills-circle">
+					<div class="holder">
+						<div id="circle"></div>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-3">
-				<div id="web"></div>
+				<div class="skills-circle">
+					
+				</div>
 			</div>
 			<div class="col-md-3">
-				<div id="web"></div>
+				<div class="skills-circle">
+					
+				</div>
 			</div>
 			<div class="col-md-3">
-				<div id="web"></div>
+				<div class="skills-circle">
+					
+				</div>
 			</div>
 		</div>
 	</div>
@@ -131,14 +141,17 @@
 })
 </script>
 <script>
-	  $( document ).ready(function() {
-        $("#web").circliful({
-        animationStep: 5,
-        foregroundBorderWidth: 5,
-        backgroundBorderWidth: 15,
-        percent: 75
-    });
-    });
+  $('#circle').circleProgress({
+    value: 0.9,
+    size: 1000,
+    fill: 'rgba(0,0,0,0.26)',
+    emptyFill: 'transparent',
+    thickness: 80,
+    animation: {
+    	duration: 2400,
+    },
+    startAngle: 300
+  });
 </script>
 </body>
 </html>
