@@ -106,17 +106,39 @@
 			</div>
 			<strong class="header-sub-title">Here is what we love and do best</strong>
 		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div id="web"></div>
+			</div>
+			<div class="col-md-3">
+				<div id="web"></div>
+			</div>
+			<div class="col-md-3">
+				<div id="web"></div>
+			</div>
+			<div class="col-md-3">
+				<div id="web"></div>
+			</div>
+		</div>
 	</div>
 </div>	
 <script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 <script>
  new WOW().init();
  $('.carousel').carousel({
   interval: false
 })
+</script>
+<script>
+	  $( document ).ready(function() {
+        $("#web").circliful({
+        animationStep: 5,
+        foregroundBorderWidth: 5,
+        backgroundBorderWidth: 15,
+        percent: 75
+    });
+    });
 </script>
 </body>
 </html>
