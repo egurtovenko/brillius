@@ -4,5 +4,32 @@
 			width: 230px;
 			height: 230px;
 		}
+		&-name {
+			position: relative;
+			overflow: hidden;
+			h4 {
+				font-family: 'Oxygen';
+				position: relative;
+				font-size: 22px;
+				display: inline-block;
+				padding: 0 15px;
+				&:before,
+				&:after {
+					content: '';
+					position: absolute;
+					width: 9999px;
+					height: 2px;
+					top: 50%;
+					transform: translateY(-50%);
+					background-color: rgba(255, 255, 255, 0.4);
+				}
+				&:before {
+					right: 100%;
+				}
+				&:after {
+					left: 100%;
+				}
+			}
+		}
 	}
 }
