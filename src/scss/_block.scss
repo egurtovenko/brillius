@@ -1,4 +1,5 @@
 $block-padding: 				70px 0;
+$block-border:					1px solid #fff;
 
 $block-blue-bg: 				#2f87cb;
 $block-tomato-bg: 				#ff6347;
@@ -10,6 +11,7 @@ $block-gold-bg: 				#c6a739;
 
 .block {
 	padding: 70px 0;
+	border-bottom: $block-border;
 	&-blue {
 		background-color: $block-blue-bg;
 		padding-bottom: 0;

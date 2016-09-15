@@ -1,3 +1,31 @@
-.skills {
+$testimonials-fz: 18px;
+$blockquote-padding: 30px 60px;
+$testimonials-footer-fw: 700;
 
+.testimonials {
+	&-description {
+		font-size: $testimonials-fz;
+		blockquote {
+			border: none;
+			padding: $blockquote-padding;
+			position: relative;
+			&:before {
+				content: '"';
+				color: rgba(255, 255, 255, 0.2);
+				font-family: 'Coustard';
+				position: absolute;
+				left: 0;
+				top: 0;
+				font-size: 75px;
+			}
+			footer {
+				color: inherit;
+				font-size: inherit;
+				font-weight: $testimonials-footer-fw;
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
 }
