@@ -1,26 +1,35 @@
+$block-padding: 				70px 0;
+
+$block-blue-bg: 				#2f87cb;
+$block-tomato-bg: 				#ff6347;
+$block-green-bg: 				#72af3c;
+$block-yellow-bg: 				#cc9031;
+$block-lightblue-bg: 			#37a3c7;
+$block-lightgreen-bg: 			#45b591;
+$block-gold-bg: 				#c6a739;
+
 .block {
 	padding: 70px 0;
 	&-blue {
-		background-color: #2f87cb;
+		background-color: $block-blue-bg;
 		padding-bottom: 0;
 	}
 	&-tomato {
-		background-color: #ff6347;
-		padding-top: 50px;
+		background-color: $block-tomato-bg;
 	}
 	&-green {
-		background-color: #72af3c;
+		background-color: $block-green-bg;
 	}
 	&-yellow {
-		background-color: #cc9031;
+		background-color: $block-yellow-bg;
 	}
 	&-lightblue {
-		background-color: #37a3c7;
+		background-color: $block-lightblue-bg;
 	}
 	&-lightgreen {
-		background-color: #45b591;
+		background-color: $block-lightgreen-bg;
 	}
 	&-gold {
-		background-color: #c6a739;
+		background-color: $block-gold-bg;
 	}
 }

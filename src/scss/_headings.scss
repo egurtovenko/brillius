@@ -1,12 +1,26 @@
+$header-padding: 			20px 0;
+$header-mb: 				30px;
+
+$header-title-mb:			30px;
+$header-title-shadow:		0 1px 0 rgba(0, 0, 0, 0.2);
+$header-title-pb:			20px;
+
+$sub-title-fz: 				22px;
+$sub-title-ff: 				$font-family-serif;
+$sub-title-fw: 				400;
+$sub-title-padding: 		7px 30px;
+$sub-title-bg: 				rgba(0,0,0,0.26);
+$sub-title-radius: 			30px;
+
 .header {
-	padding: 20px 0;
-	margin-bottom: 30px;
+	padding: $header-padding;
+	margin-bottom: $header-mb;
 	overflow: hidden;
 	&-title {
-		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
-		margin-bottom: 30px;
+		text-shadow: $header-title-shadow;
+		margin-bottom: $header-title-mb;
 		margin: 0;
-		padding-bottom: 20px;
+		padding-bottom: $header-title-pb;
 		> h1 {
 			position: relative;
 			display: inline-block;
@@ -39,11 +53,11 @@
 		}
 	}
 	&-sub-title {
-		font-size: 22px;
-		font-family: $font-family-serif;
-		padding: 7px 30px;
-		background: rgba(0,0,0,0.26);
-		border-radius: 30px;
-		font-weight: 400;
+		font-size: $sub-title-fz;
+		font-family: $sub-title-ff;
+		padding: $sub-title-padding;
+		background: $sub-title-bg;
+		border-radius: $sub-title-radius;
+		font-weight: $sub-title-fw;
 	}
 }
