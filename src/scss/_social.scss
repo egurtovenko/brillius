@@ -1,0 +1,14 @@
+.social {
+    padding-top: 30px;
+    &-link {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        display: inline-flex;
+        margin-right: 10px;
+        span {
+            margin: auto;
+        }
+    }
+}
