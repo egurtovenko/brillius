@@ -1,0 +1,14 @@
+.post {
+	display: flex;
+	overflow: hidden;
+	&-image {
+		margin-right: 40px;
+	}
+	&-description {
+		width: 100%;
+		a {
+			font-weight: 700;
+			text-decoration: underline;
+		}
+	}
+}
