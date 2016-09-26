@@ -75,6 +75,7 @@ $heading-shadow: 			0 1px 0 rgba(0, 0, 0, 0.2);
 		padding: $heading-padding;
 		display: inline-block;
 		text-shadow: $heading-shadow;
+		font-weight: 700;
 		&:after {
 			content: '';
 			width: 9999px;
