@@ -12,3 +12,17 @@
 		}
 	}
 }
+
+.sidebar {
+	h3 {
+		font-size: 22px;
+	}
+	a {
+		text-decoration: underline;
+	}
+	&-category {
+		ul {
+			padding-left: 20px;
+		}
+	}
+}
