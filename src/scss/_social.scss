@@ -1,12 +1,25 @@
+@mixin link ($link-width, $link-height, $link-bg, $link-br, $link-display) {
+    width: $link-width;
+    height: $link-height;
+    background-color: $link-bg;
+    border-radius: $link-br;
+    display: $link-display;
+}
+
 .social {
     padding-top: 30px;
     &-link {
-        width: 30px;
-        height: 30px;
-        background-color: rgba(0,0,0,0.26);
-        border-radius: 50%;
-        display: inline-flex;
+        @include link (30px, 30px, rgba(0,0,0,0.26), 50%, inline-flex);
         margin-right: 10px;
+        span {
+            margin: auto;
+        }
+    }
+    &-link-footer {
+        @include link (45px, 45px, rgba(0,0,0,0.26), 50%, inline-flex);
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-right: 5px;
         span {
             margin: auto;
         }

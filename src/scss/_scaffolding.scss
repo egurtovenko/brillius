@@ -13,7 +13,15 @@
 }
 .column-holder {
 	margin-bottom: 20px;
+	display: block;
 }
 blockquote {
 	border-left: none;
+}
+.form-control {
+	resize: none;
+}
+.info {
+	display: flex;
+	flex-direction: column;
 }
